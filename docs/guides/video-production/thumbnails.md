@@ -2,7 +2,7 @@
 
 ## Overview
 
-FPCD 
+We use a standarized template for our Youtube thumbnails. The following guide describes how to create a thumbnail from the template in photoshop. 
 
 <figure markdown="span">
   ![Example final thumbnail](/assets/guides/video-production/thumbnail.jpg){ width="600" }
