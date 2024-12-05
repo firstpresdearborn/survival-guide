@@ -1,0 +1,52 @@
+site_name: FPCD Survival Guide
+site_author: 'Noah Husby'
+site_url: https://docs.pillarproductions.org
+docs_dir: docs/
+repo_name: 'firstpresdearborn/survival-guide'
+repo_url: 'https://github.com/firstpresdearborn/survival-guide'
+copyright: Copyright &copy; 2024 First Presbyterian Church of Dearborn
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/firstpresdearborn
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/firstpresdearborn/
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/firstpresdearborn/
+
+nav:
+  - Home: index.md
+  - Guides:
+      - Video Production:
+        - Thumbnails: guides/video-production/thumbnails.md
+theme:
+  name: 'material'
+  favicon: assets/favicon.png
+  features:
+    - toc.integrate
+    - navigation.indexes
+    - navigation.sections
+  palette:
+    scheme: slate
+markdown_extensions:
+  - admonition
+  - tables
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - pymdownx.keys
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+plugins:
+  - glightbox
+  - search
+  - table-reader
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - git-committers:
+      repository: firstpresdearborn/survival-guide
+      branch: main
